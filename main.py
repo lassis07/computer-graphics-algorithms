@@ -1,4 +1,3 @@
-# pip install pygame
 import pygame
 from pygame import gfxdraw
 
@@ -9,7 +8,7 @@ def setPixel(img, x , y, color):
     if y < 0:
         y = 0   
  
-    pygame.gfxdraw.pixel(img, y, x, color)
+    gfxdraw.pixel(img, y, x, color)
 
 def main():
     pygame.init()
